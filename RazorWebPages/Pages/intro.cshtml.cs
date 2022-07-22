@@ -6,9 +6,8 @@ namespace RazorWebPages.Pages
 {
     public class IntroductionModel : PageModel
     {
-        public void Intro()
+        public void OnGet()
         {
         }
     }
 }
-

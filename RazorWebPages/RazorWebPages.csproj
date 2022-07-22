@@ -9,4 +9,7 @@
   <ItemGroup>
     <None Remove="ReadMe.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Pages\Intro.cshtml" />
+  </ItemGroup>
 </Project>

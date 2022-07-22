@@ -1,0 +1,34 @@
+﻿@page
+@model RazorWebPages.Pages.IntroductionModel
+@{
+    ViewData["Title"] = "Intro";
+}
+<section>
+    <div class="text-center">
+
+        <h3 class="mb-3">Student Name: Tochukwu Ozurumba</h3>
+        <p class="mb-3">This is my first application with ASP.NET without MVC</p>
+
+        <form class="text-center">
+            <div class="form-outline mb-4">
+                <input type="number" id="phoneNumber1" class="form-control" placeholder="(705)-XXX-XXXX" />
+                <label class="form-label" for="phoneNumber1">Phone Number 1</label>
+            </div>
+
+            <div class="form-outline mb-4">
+                <input type="number" id="phoneNumber2" class="form-control" placeholder="(705)-XXX-XXXX" />
+                <label class="form-label" for="phoneNumber2">Phone Number 2</label>
+            </div>
+
+            <output type=@Model></output>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+
+    </div>
+</section>
+
+@section Intro_Section{
+    <div class="text-center">
+        <p>This is the created paragraph referencing the link in _Layout.cshtml</p>
+    </div>
+}
